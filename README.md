@@ -161,8 +161,8 @@ Open `hrl_taxi_domain_analysis.ipynb`, set hyperparameters, and execute cells.
 
 ### Learned Q-Values
 <div style="display: flex; gap: 1em;">
-  <img src="results/q_values/smdp_q_values.png" width="45%" alt="SMDP Q-values heatmap" />
-  <img src="results/q_values/intraop_q_values.png" width="45%" alt="Intra-Option Q-values heatmap" />
+  <img src="https://github.com/ahmecse/RL-Assignments-3-IITM-CS6700/raw/main/results/smdp/a500_e100_g90_updates.jpg" alt="SMDP update frequency heatmap" style="width:45%;" />
+  <img src="https://github.com/ahmecse/RL-Assignments-3-IITM-CS6700/raw/main/results/intraop/a500_e1_g90_updates.jpg" alt="Intra-Option update frequency heatmap" style="width:45%;" />
 </div>
 
 ---
