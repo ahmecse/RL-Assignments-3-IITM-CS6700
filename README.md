@@ -147,20 +147,23 @@ Open `hrl_taxi_domain_analysis.ipynb`, set hyperparameters, and execute cells.
 
 ## 📊 Results
 
-### Reward Curves
+### Reward Curves Comparison
+![](results/comparison_plots/comparison_plot.png)  
+*Reward Curve: SMDP vs. Intra-Option Q-Learning*
 
-![](results/comparison_plots/comparison_plot.png)
+---
 
-**Key Observations:**
+### Update Frequency Analysis
+![](results/comparison_plots/Update%20Frequency_SMDP%20and%20Intra-Option%20Q-Learning.PNG)  
+*How often each algorithm’s Bellman updates fire over training*
 
-* **Convergence:** Intra-Option Q-Learning converges \~20% faster than SMDP Q-Learning.
-* **Sample Efficiency:** Option structure impacts early learning; alternate row‑column options slightly improved initial reward slope.
-* **Final Performance:** Both reach similar asymptotic returns (\~+18 per episode).
+---
 
-### Q-Value Heatmaps
-
-![](results/q_values/smdp_q_values.png)
-![](results/q_values/intraop_q_values.png)
+### Learned Q-Values
+<div style="display: flex; gap: 1em;">
+  <img src="results/q_values/smdp_q_values.png" width="45%" alt="SMDP Q-values heatmap" />
+  <img src="results/q_values/intraop_q_values.png" width="45%" alt="Intra-Option Q-values heatmap" />
+</div>
 
 ---
 
