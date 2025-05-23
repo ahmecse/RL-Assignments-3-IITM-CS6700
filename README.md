@@ -173,7 +173,7 @@ Open `hrl_taxi_domain_analysis.ipynb`, set hyperparameters, and execute cells.
 
 ## 🔖 References
 
-1. Sutton, R. S., Precup, D., & Singh, S. (1999). Between MDPs and semi‑MDPs: A framework for temporal abstraction in reinforcement learning. *Artificial Intelligence*, 112(1‑2), 181–211. fileciteturn0file0
+1. Sutton, R. S., Precup, D., & Singh, S. (1999). Between MDPs and semi‑MDPs: A framework for temporal abstraction in reinforcement learning. *Artificial Intelligence*, 112(1‑2), 181–211.
 2. Gymnasium Taxi‑v3 Environment. Retrieved from [https://gymnasium.farama.org/environments/toy\_text/taxi/](https://gymnasium.farama.org/environments/toy_text/taxi/)
 
 ---
