@@ -1,6 +1,13 @@
 # CS6700 Programming Assignment 3: Hierarchical Reinforcement Learning (Taxi Domain)
 
-[![Python](https://img.shields.io/badge/python-3.x-blue.svg)](requirements.txt)
+[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](requirements.txt)
+[![Gymnasium](https://img.shields.io/badge/Gymnasium-0.29.1-brightgreen.svg)](https://pypi.org/project/gymnasium/)
+[![NumPy](https://img.shields.io/badge/numpy-1.24+-orange.svg)](https://pypi.org/project/numpy/)
+[![Matplotlib](https://img.shields.io/badge/matplotlib-3.5+-blueviolet.svg)](https://pypi.org/project/matplotlib/)
+[![Jupyter](https://img.shields.io/badge/jupyter-notebook-yellow.svg)](https://jupyter.org/)
+[![PyTorch](https://img.shields.io/badge/pytorch-1.13+-red.svg)](https://pytorch.org/)
+[![tqdm](https://img.shields.io/badge/tqdm-progress--bar-lightgrey.svg)](https://pypi.org/project/tqdm/)
+
 
 An implementation and comparison of **SMDP Q-Learning** and **Intra-Option Q-Learning** for solving the **Taxi Domain** problem using **OpenAI Gymnasium**.
 ---
