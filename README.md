@@ -96,13 +96,14 @@ CS6700-PA3-HRL-Taxi/
 │   └── utils/
 │       └── __init__.py
 ├── results/
-│   ├── plots/                          # Generated plots
+│   ├── comparison_plots/                          # Generated plots
 │   │   ├── smdp_q_learning_rewards.png
 │   │   ├── intra_option_q_learning_rewards.png
 │   │   └── comparison_plot.png
-│   └── q_values/                       # Saved Q-value visualizations
-│       ├── smdp_q_values.png
-│       └── intra_option_q_values.png
+│   |└── intraop/                       # Saved Q-value visualizations
+│   |    └── intra_option_q_values.png
+|   |└── SMDP/
+|   |    ├── smdp_q_values.png
 ├── docs/
 │   ├── CS6700_PA3.pdf                  # Original assignment description
 │   └── report.pdf                      # Project report PDF (if applicable)
