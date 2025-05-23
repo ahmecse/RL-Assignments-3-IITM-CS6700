@@ -2,8 +2,7 @@
 
 [![Python](https://img.shields.io/badge/python-3.x-blue.svg)](requirements.txt)
 
-An implementation and comparison of **SMDP Q-Learning** and **Intra-Option Q-Learning** for solving the **Taxi Domain** problem using **OpenAI Gymnasium**, following Sutton, Precup & Singh (1999) Section 3 fileciteturn0file0.
-
+An implementation and comparison of **SMDP Q-Learning** and **Intra-Option Q-Learning** for solving the **Taxi Domain** problem using **OpenAI Gymnasium**.
 ---
 
 ## 🧪 Objectives
@@ -30,7 +29,7 @@ An implementation and comparison of **SMDP Q-Learning** and **Intra-Option Q-Lea
 7. [Usage](#▶️-usage)
 8. [Results](#📊-results)
 9. [References](#🔖-references)
-10. [License](#📜-license)
+
 
 ---
 
@@ -123,7 +122,7 @@ CS6700-PA3-HRL-Taxi/
 ## 🚀 Setup & Installation
 
 ```bash
-git clone https://github.com/your-username/CS6700-PA3-HRL-Taxi.git
+git clone https://github.com/ahmecse/CS6700-PA3-HRL-Taxi.git
 cd CS6700-PA3-HRL-Taxi
 python3 -m venv venv
 source venv/bin/activate
@@ -147,9 +146,14 @@ Open `hrl_taxi_domain_analysis.ipynb`, set hyperparameters, and execute cells.
 
 ## 📊 Results
 
-### Reward Curves Comparison
-![](results/comparison_plots/comparison_plot.png)  
-*Reward Curve: SMDP vs. Intra-Option Q-Learning*
+### Reward Curves: Individual & Comparison
+
+
+| SMDP: Average reward per episode | IntraOP: Average reward per episode | Comparison: SMDP vs. Intra-Option |
+|:--------------------------------:|:----------------------------------:|:---------------------------------:|
+| ![](https://github.com/ahmecse/RL-Assignments-3-IITM-CS6700/raw/main/results/smdp/rewards.jpg) | ![](https://github.com/ahmecse/RL-Assignments-3-IITM-CS6700/raw/main/results/intraop/rewards.jpg) | ![](https://github.com/ahmecse/RL-Assignments-3-IITM-CS6700/raw/main/results/comparison_plots/comparison_plot.png) |
+
+
 
 ---
 
@@ -174,6 +178,3 @@ Open `hrl_taxi_domain_analysis.ipynb`, set hyperparameters, and execute cells.
 
 ---
 
-## 📜 License
-
-This repository is for academic use. No license specified.
